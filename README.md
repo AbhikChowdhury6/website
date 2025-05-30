@@ -14,3 +14,7 @@ chmod 600 ~/.ssh/authorized_keys
 to setup i did
 sudo apt install python3-fastapi
 sudo apt install uvicorn
+
+some fun notes
+- use curl ifconfig.me to get my ip
+- ip route will show you some handy network interfaces 
