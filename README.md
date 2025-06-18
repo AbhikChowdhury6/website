@@ -18,3 +18,16 @@ sudo apt install uvicorn
 some fun notes
 - use curl ifconfig.me to get my ip
 - ip route will show you some handy network interfaces 
+- for session managment use cookies with the attributes
+    - secure 
+    - http only?
+    - encrypted?
+
+types of cookies
+- refresh token
+- access token
+- anti Cross site request fogery (csrf) token
+
+remember to use the  Strict-Transport-Security headers to oly communicate over https
+
+remember to sanitize and validate input fields
